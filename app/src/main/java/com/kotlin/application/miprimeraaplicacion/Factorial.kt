@@ -4,7 +4,7 @@ fun main(args: Array<String>){
     factorial()
 }
 
-fun factorial(){
+fun factorial():Unit {
     print("Ingrese número::")
     var numero:Int = readLine()!!.toInt()
     var resultado = 1
